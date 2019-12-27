@@ -4,14 +4,16 @@ class Post
   def initialize(post)
     @name = post
     @@all << self
-
   end
+
   def self.all
     @@all
   end
+
   def title
     @name
   end
+
   def author_name
     # binding.pry
     if self.author
@@ -19,8 +21,5 @@ class Post
     else
       nil
     end
-
   end
-
-
 end
