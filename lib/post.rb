@@ -10,7 +10,7 @@ class Post
     @@all
   end
   def title
-    @post
+    @name
   end
   def author_name
     # binding.pry
