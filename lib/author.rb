@@ -23,7 +23,7 @@ class Author
     @@all
   end
   def add_post(post_title)
-    new_post, new_post.author = post_title, post_title.author
+    new_post, new_post.author = post_title, self
     # binding.pry
 
   end
